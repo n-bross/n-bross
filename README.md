@@ -36,5 +36,9 @@
 
 <details>
  <summary><h3>👨‍💻 Nico's Coding Journey</h3></summary>
-   
+   My coding experience began with creating an ambilight for my monitor using an Arduino. This project introduced me to the world of programming and sparked my interest in smart home technology. From there, I continued to explore the field and gained experience working on various projects. While I had some previous experience with HTML, I began to study Java in university and worked on small projects to further develop my skills. Recently, I have started to learn Python and am continuing to build upon my knowledge in the field.
+
+In terms of getting hired, I believe my diverse experience and willingness to learn new languages and technologies would make me a strong candidate for a software engineering position. My background in creating smart home projects showcases my ability to apply programming concepts to practical, real-world problems. Additionally, my education in computer science has given me a solid foundation in programming fundamentals and problem-solving skills.
+
+I am excited to continue to grow my skills and experience and am confident that my passion for programming and dedication to learning will make me a valuable asset to any team.
   
