@@ -2,6 +2,14 @@
 
 **`Digital Craftsman (Developer/Photograph/Kiter)`**
 
+As a computer science student, coding has become a passion for me. I love the feeling of creating something new and seeing my ideas come to life through code. There is a certain satisfaction that comes with solving complex problems and making something work seamlessly.
+
+Coding allows me to express my creativity and curiosity in a tangible way, and I enjoy the challenge of constantly learning and improving my skills. It's amazing how a few lines of code can transform an abstract concept into a functional application that people can use and benefit from.
+
+Moreover, coding has opened up a world of possibilities for me. It has given me the ability to create solutions to real-world problems and make an impact on people's lives. I feel empowered to tackle challenges and make a difference through my coding skills.
+
+Overall, coding is not just a skill or hobby for me, it's a way of thinking and approaching problems. It's something that I love and am passionate about, and I am excited to continue exploring the endless possibilities that coding has to offer.
+
 ---
 
 ### 🧰 Languages and Tools
