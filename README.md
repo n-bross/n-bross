@@ -11,7 +11,7 @@ Moreover, coding has opened up a world of possibilities for me. It has given me 
 Overall, coding is not just a skill or hobby for me, it's a way of thinking and approaching problems. It's something that I love and am passionate about, and I am excited to continue exploring the endless possibilities that coding has to offer.
 
 ---
-<!-- -->
+
 ### 🧰 Languages and Tools
 
 <img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
@@ -24,7 +24,7 @@ Overall, coding is not just a skill or hobby for me, it's a way of thinking and 
 <img align="left" alt="NodeJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /> -->
 <img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
 <img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-
+<br />
 #
 
 ### 📊 Stats
