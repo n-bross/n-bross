@@ -4,11 +4,11 @@
 
 # Hi, ich bin Nico 👋
 
-**Fachinformatiker für Anwendungsentwicklung · Backend, KI-/Audio-Pipelines, Full-Stack & Self-Hosted Infrastructure**
+**Fachinformatiker für Anwendungsentwicklung · Full-Stack, Backend-APIs, KI-/Audio-Pipelines & Automatisierung**
 
-[![Standort](https://img.shields.io/badge/Standort-Raum_M%C3%BCnchen_%2F_Grafing-0A66C2?style=flat-square)](#)
-[![Fokus](https://img.shields.io/badge/Fokus-Python_%C2%B7_TypeScript_%C2%B7_Java_%C2%B7_DevOps-2ea043?style=flat-square)](#)
-[![Infrastruktur](https://img.shields.io/badge/Homelab-Multi--Host_Tailscale_Mesh-6e40c9?style=flat-square)](#)
+[![Standort](https://img.shields.io/badge/Standort-Raum_München_%2F_Grafing-0A66C2?style=flat-square)](#)
+[![Fokus](https://img.shields.io/badge/Fokus-Python_·_TypeScript_·_Java_·_Swift-2ea043?style=flat-square)](#)
+[![Architektur](https://img.shields.io/badge/Schwerpunkt-Full--Stack_·_REST_APIs_·_Audio/AI-6e40c9?style=flat-square)](#)
 
 </div>
 
@@ -16,54 +16,44 @@
 
 ### Über mich
 
-Ich entwickle Software und Infrastruktur, die reale Alltags- und Geschäftsprobleme zuverlässig automatisiert — von **verteilten Audio- und KI-Pipelines** über **moderne Web- und Mobile-Apps** bis hin zu einer **deklarativ verwalteten Multi-Host-Serverlandschaft**.
+Ich bin **Anwendungsentwickler** mit Leidenschaft für saubere Software-Architektur, durchdachte APIs und Systeme, die komplexe Abläufe zuverlässig automatisieren — von **verteilten Audio- und KI-Pipelines** über **moderne Full-Stack-Web- und Mobile-Apps** bis hin zu **automatisierten Backend-Schnittstellen**.
 
 - 🎓 **Ausbildung & Praxis:** Abgeschlossene Ausbildung zum **Fachinformatiker für Anwendungsentwicklung (IHK)** bei der *Zeppelin Baumaschinen GmbH* (Java/Spring-Boot-Backend, atomare Datenbanktransaktionen, automatisierte PDF-Beleggenerierung sowie Entwicklung eines Python/`pytest`-REST-API-Testframeworks mit **70 % Zeitersparnis** in der Jenkins-CI/CD-Pipeline).
-- 🏗️ **System-Architektur im eigenen Lab:** Produktives Multi-Node-Setup (Linux-VPS, TrueNAS SCALE mit ZFS, dedizierte KI-Jails, Home Assistant OS & Apple-Silicon-Worker), vernetzt über ein Zero-Trust-Mesh (Tailscale) mit zentralem Monitoring, SSO und Secret-Management.
-- 🔒 **Hinweis zu Repository-Sichtbarkeiten:** Da viele meiner produktiven Systeme direkt in meine Infrastruktur oder kommunale Umgebungen eingebunden sind, sind diese als `Private / Self-Hosted` markiert. Öffentliche Projekte (`Open Source`) sind direkt verlinkt — **Architektur-Einblicke, Live-Demos und Code-Walkthroughs zeige ich jederzeit gerne im Gespräch!**
+- 🧪 **Engineering-Fokus:** Reproduzierbare Benchmarks, typensichere Schnittstellen (`TypeScript`, `FastAPI`, `Pydantic`, `SQLAlchemy`), automatisierte Test-Suiten (`pytest`, `unittest`) und datensparsame Offline-/Cloud-Hybrid-Architekturen.
+- 🔓 **Open Source & Live-Walkthroughs:** Meine wichtigsten Software-Projekte sind direkt als `Open Source` verlinkt. Weitere selbstgehostete Systeme aus meinem Homelab sind als `Private` aufgeführt — **Code-Walkthroughs und Live-Demos zeige ich jederzeit gerne im Gespräch!**
 
 ---
 
-## ⭐ Ausgewählte Flaggschiff-Projekte
+## ⭐ Ausgewählte Software- & Flaggschiff-Projekte (Open Source)
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/logos/soundcore-export.png" width="54" height="54" align="left" alt="Keepsaid Logo" />
-      <b>Keepsaid &amp; Soundcore-Export</b><br/>
-      <img src="https://img.shields.io/badge/Private-Distributed_Pipeline-6e7681?style=flat-square&logo=github" alt="Private" />
+      <a href="https://github.com/n-bross/keepsaid"><img src="assets/logos/soundcore-export.png" width="54" height="54" align="left" alt="Keepsaid Logo" /></a>
+      <a href="https://github.com/n-bross/keepsaid"><b>Keepsaid</b></a><br/>
+      <a href="https://github.com/n-bross/keepsaid"><img src="https://img.shields.io/badge/Open_Source-Public_Repo-2ea043?style=flat-square&logo=github" alt="Open Source" /></a>
       <br clear="left"/>
-      <sub><b>Persönliches Audioarchiv &amp; verteilte Sprach-Pipeline:</b> Automatischer Cloud-Ingest mit <code>AES-256-GCM</code>-Entschlüsselung, Rauschunterdrückung (RNNoise), GPU-Transkription via <code>mlx-whisper</code> auf Apple Silicon, Sprecher-Diarisierung (PyAnnote) und Web-Review-UI zum wortweisen Mitlesen.</sub><br/>
-      <sub><code>Python</code> · <code>FastAPI</code> · <code>MLX-Whisper</code> · <code>PyAnnote</code> · <code>Docker</code></sub>
+      <sub><b>Persönliches Audioarchiv &amp; Review-Server:</b> Verteilte Sprach-Pipeline mit Rauschunterdrückung (RNNoise / MossFormer2), GPU-Transkription via <code>mlx-whisper</code> auf Apple Silicon, Sprecher-Erkennung, HTTP-Range-Streaming und interaktiver Web-Review-UI zum wortweisen Mitlesen.</sub><br/>
+      <sub><code>Python</code> · <code>MLX-Whisper</code> · <code>SQLite</code> · <code>FFmpeg</code> · <code>unittest</code></sub>
     </td>
     <td width="50%" valign="top">
-      <img src="assets/logos/speech-lab.png" width="54" height="54" align="left" alt="Speech Lab Logo" />
-      <b>Speech Lab</b><br/>
-      <img src="https://img.shields.io/badge/Private-Evaluation_Suite-6e7681?style=flat-square&logo=github" alt="Private" />
+      <a href="https://github.com/n-bross/speech-lab"><img src="assets/logos/speech-lab.png" width="54" height="54" align="left" alt="Speech Lab Logo" /></a>
+      <a href="https://github.com/n-bross/speech-lab"><b>Speech Lab</b></a><br/>
+      <a href="https://github.com/n-bross/speech-lab"><img src="https://img.shields.io/badge/Open_Source-Public_Repo-2ea043?style=flat-square&logo=github" alt="Open Source" /></a>
       <br clear="left"/>
-      <sub><b>Reproduzierbare ASR-Benchmark-Suite:</b> Lokales Evaluierungslabor zum systematischen Vergleich von lokalen und Cloud-Sprachmodellen, exakter Wortzeitmarken-Ausrichtung und Mehrsprecher-Erkennung gegen <code>SHA256</code>-verankerte Referenztranskripte.</sub><br/>
-      <sub><code>Python</code> · <code>ASR Benchmarking</code> · <code>Diarization</code> · <code>Web UI</code> · <code>pytest</code></sub>
+      <sub><b>Reproduzierbare ASR- &amp; Diarization-Benchmark-Suite:</b> Evaluierungsplattform zum systematischen Vergleich lokaler (MLX, Sherpa-ONNX, ECAPA-TDNN) und 11+ Cloud-Sprachmodelle (WER, CER, DER, Wortzeit-Alignment) gegen <code>SHA256</code>-verankerte Referenzen mit PostgreSQL-JSONB-Backend.</sub><br/>
+      <sub><code>Python</code> · <code>PostgreSQL</code> · <code>ASR Benchmarking</code> · <code>Diarization</code> · <code>Web UI</code></sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/logos/fleet.png" width="54" height="54" align="left" alt="Fleet Logo" />
-      <b>Fleet</b><br/>
-      <img src="https://img.shields.io/badge/Private-Infra_CLI-6e7681?style=flat-square&logo=github" alt="Private" />
+      <a href="https://github.com/n-bross/chaxterlog"><img src="assets/logos/chaxterlog.png" width="54" height="54" align="left" alt="ChaxterLog Logo" /></a>
+      <a href="https://github.com/n-bross/chaxterlog"><b>ChaxterLog</b></a><br/>
+      <a href="https://github.com/n-bross/chaxterlog"><img src="https://img.shields.io/badge/Open_Source-Public_Repo-2ea043?style=flat-square&logo=github" alt="Open Source" /></a>
       <br clear="left"/>
-      <sub><b>Multi-Host-Orchestrierung &amp; Health-Radar:</b> Zentrales CLI (<code>fleet doctor</code>, <code>fleet sync</code>) zur Überwachung und Synchronisation von über 45 Repos und Diensten über Linux-VPS, TrueNAS, Home Assistant und macOS inkl. dynamischer 1Password-Injektion (<code>op://</code>).</sub><br/>
-      <sub><code>Python</code> · <code>Bash</code> · <code>1Password CLI</code> · <code>Tailscale</code> · <code>systemd</code></sub>
+      <sub><b>Event-basiertes Besucher- &amp; Aktivitäts-Tracking:</b> Für den schnellen Thekenbetrieb am Tablet und Smartphone optimierte Full-Stack-Web-App mit inkrementeller Offline-Queue-Synchronisation, Rollen-/Teamverwaltung, SHA-256 Setup-Flow und statistischer Auswertung.</sub><br/>
+      <sub><code>Next.js 15</code> · <code>TypeScript</code> · <code>Tailwind CSS 4</code> · <code>Neon PostgreSQL</code> · <code>Better Auth</code></sub>
     </td>
-    <td width="50%" valign="top">
-      <img src="assets/logos/chaxterlog.png" width="54" height="54" align="left" alt="ChaxterLog Logo" />
-      <b>ChaxterLog</b><br/>
-      <img src="https://img.shields.io/badge/Private-Production_App-6e7681?style=flat-square&logo=github" alt="Private" />
-      <br clear="left"/>
-      <sub><b>Besucher-Analytics &amp; Verwaltung (Schülercafé Grafing):</b> Für den schnellen Thekenbetrieb am Tablet und Smartphone optimierte Web-App zur tagesaktuellen Besucherzählung, Rollen- und Teamverwaltung sowie statistischen Auswertung.</sub><br/>
-      <sub><code>Next.js</code> · <code>TypeScript</code> · <code>Tailwind CSS</code> · <code>Neon PostgreSQL</code> · <code>Better Auth</code></sub>
-    </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/n-bross/JUFO-Web"><img src="assets/logos/jufo-web.png" width="54" height="54" align="left" alt="JUFO-Web Logo" /></a>
       <a href="https://github.com/n-bross/JUFO-Web"><b>JUFO-Web</b></a><br/>
@@ -72,24 +62,44 @@ Ich entwickle Software und Infrastruktur, die reale Alltags- und Geschäftsprobl
       <sub><b>Web-Plattform für das Jugendforum Grafing:</b> Full-Stack-Vereinsportal mit Online-Eventanmeldung, Bewerbungs- &amp; Kontakt-Workflows, Turnierplaner und Serverless-PostgreSQL-Backend.</sub><br/>
       <sub><code>React 18</code> · <code>TypeScript</code> · <code>Vite</code> · <code>Tailwind CSS 4</code> · <code>PostgreSQL</code></sub>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/n-bross/PriceWatch"><img src="assets/logos/pricewatch.png" width="54" height="54" align="left" alt="PriceWatch Logo" /></a>
       <a href="https://github.com/n-bross/PriceWatch"><b>PriceWatch</b></a><br/>
       <a href="https://github.com/n-bross/PriceWatch"><img src="https://img.shields.io/badge/Open_Source-Public_Repo-2ea043?style=flat-square&logo=github" alt="Open Source" /></a>
       <br clear="left"/>
-      <sub><b>Native iOS-App für smarte Einkaufslisten &amp; Preisvergleiche:</b> Kombiniert aktuelle Prospekt-Angebote deutscher Einzelhändler mit einer intelligenten Einkaufsliste und Cloud-Synchronisation.</sub><br/>
-      <sub><code>Swift</code> · <code>SwiftUI</code> · <code>Supabase</code> · <code>iOS</code></sub>
+      <sub><b>Native iOS-App für smarte Einkaufslisten &amp; Preisvergleiche:</b> Kombiniert aktuelle Prospekt-Angebote deutscher Einzelhändler mit einer intelligenten Einkaufsliste, automatischer Einheiten-Normalisierung und Cloud-Synchronisation.</sub><br/>
+      <sub><code>Swift</code> · <code>SwiftUI</code> · <code>Supabase</code> · <code>PostgreSQL</code> · <code>iOS</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/n-bross/Caldav-Setup"><img src="assets/logos/todo-kalender.png" width="54" height="54" align="left" alt="Todo-Kalender Logo" /></a>
+      <a href="https://github.com/n-bross/Caldav-Setup"><b>Todo-Kalender (CalDAV Sync API)</b></a><br/>
+      <a href="https://github.com/n-bross/Caldav-Setup"><img src="https://img.shields.io/badge/Open_Source-Public_Repo-2ea043?style=flat-square&logo=github" alt="Open Source" /></a>
+      <br clear="left"/>
+      <sub><b>Task- &amp; Kalender-Backend mit bidirektionalem CalDAV-Sync:</b> Asynchrones FastAPI- und SQLAlchemy-Backend zur Aufgaben-, Fokusblock- und Timer-Steuerung mit Radicale-CalDAV-Worker und Home-Assistant-Anbindung.</sub><br/>
+      <sub><code>Python</code> · <code>FastAPI</code> · <code>Async SQLAlchemy</code> · <code>CalDAV</code> · <code>pytest</code></sub>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/n-bross/vacuum_room_scheduler"><img src="assets/logos/vacuum-room-scheduler.png" width="54" height="54" align="left" alt="Vacuum Room Scheduler Logo" /></a>
-      <a href="https://github.com/n-bross/vacuum_room_scheduler"><b>Vacuum Room Scheduler</b></a><br/>
-      <a href="https://github.com/n-bross/vacuum_room_scheduler"><img src="https://img.shields.io/badge/Open_Source-HACS_Integration-2ea043?style=flat-square&logo=github" alt="Open Source" /></a>
+      <a href="https://github.com/n-bross/live-meeting-copilot-mvp"><img src="assets/logos/live-meeting-copilot.png" width="54" height="54" align="left" alt="Live Meeting Copilot Logo" /></a>
+      <a href="https://github.com/n-bross/live-meeting-copilot-mvp"><b>Live Meeting Copilot</b></a><br/>
+      <a href="https://github.com/n-bross/live-meeting-copilot-mvp"><img src="https://img.shields.io/badge/Open_Source-Public_Repo-2ea043?style=flat-square&logo=github" alt="Open Source" /></a>
       <br clear="left"/>
-      <sub><b>Smart-Home-Raumreinigungs-Automatisierung:</b> Home Assistant Custom Integration für etagenbasierte Raumerkennung, separate Saug-/Wisch-Intervalle, Anwesenheitsprüfung und interaktive Sprach-Rückfragen (TTS).</sub><br/>
-      <sub><code>Python</code> · <code>Home Assistant</code> · <code>HACS</code> · <code>AsyncIO</code> · <code>TTS</code></sub>
+      <sub><b>Echtzeit-Meeting-Assistent &amp; Action-Item-Detektor:</b> Lokales Streaming-ASR mit <code>faster-whisper</code>, Sprecherwechsel-Erkennung, akustischer Namens-Erwähnungs-Warnung, automatischer Aufgaben-Extraktion und FastAPI-Live-Dashboard.</sub><br/>
+      <sub><code>Python</code> · <code>Faster-Whisper</code> · <code>FastAPI</code> · <code>Real-Time Audio</code></sub>
     </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/n-bross/intunes-macmon-Skript"><img src="assets/logos/intune-macmon-pipeline.png" width="54" height="54" align="left" alt="Intune MacMon Pipeline Logo" /></a>
+      <a href="https://github.com/n-bross/intunes-macmon-Skript"><b>Intune → MacMon Sync Pipeline</b></a><br/>
+      <a href="https://github.com/n-bross/intunes-macmon-Skript"><img src="https://img.shields.io/badge/Open_Source-Public_Repo-2ea043?style=flat-square&logo=github" alt="Open Source" /></a>
+      <br clear="left"/>
+      <sub><b>Enterprise REST-API-Synchronisations-Pipeline:</b> Synchronisiert verwaltete Endgeräte aus Microsoft Intune (Graph API inkl. Paging &amp; Detail-Enrichment) parallelisiert in ein MacMon-NAC-System inkl. 7-stufiger Preflight-Diagnose.</sub><br/>
+      <sub><code>PowerShell 7</code> · <code>Microsoft Graph API</code> · <code>REST API</code> · <code>Parallel Processing</code></sub>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/n-bross/ha-hermes-conversation"><img src="assets/logos/ha-hermes-conversation.png" width="54" height="54" align="left" alt="Hermes HA Logo" /></a>
       <a href="https://github.com/n-bross/ha-hermes-conversation"><b>Hermes Home Assistant Integration</b></a><br/>
@@ -98,44 +108,36 @@ Ich entwickle Software und Infrastruktur, die reale Alltags- und Geschäftsprobl
       <sub><b>KI-Sprachassistent für Home Assistant Assist:</b> HACS Custom Integration, die Sprachbefehle über eine asynchrone FastAPI-Bridge mit persistentem SQLite-Gedächtnis an einen selbstgehosteten KI-Agenten anbindet.</sub><br/>
       <sub><code>Python</code> · <code>Home Assistant</code> · <code>FastAPI</code> · <code>SQLite</code> · <code>HACS</code></sub>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
-      <img src="assets/logos/orbit.png" width="54" height="54" align="left" alt="Orbit Logo" />
-      <b>Orbit // Mission Control</b><br/>
-      <img src="https://img.shields.io/badge/Private-Live_Dashboard-6e7681?style=flat-square&logo=github" alt="Private" />
+      <a href="https://github.com/n-bross/vacuum_room_scheduler"><img src="assets/logos/vacuum-room-scheduler.png" width="54" height="54" align="left" alt="Vacuum Room Scheduler Logo" /></a>
+      <a href="https://github.com/n-bross/vacuum_room_scheduler"><b>Vacuum Room Scheduler</b></a><br/>
+      <a href="https://github.com/n-bross/vacuum_room_scheduler"><img src="https://img.shields.io/badge/Open_Source-HACS_Integration-2ea043?style=flat-square&logo=github" alt="Open Source" /></a>
       <br clear="left"/>
-      <sub><b>Echtzeit-Service- &amp; Telemetrie-Dashboard:</b> Zentrale Start- und Monitoring-Plattform für alle Dienste im Homelab und Tailnet mit Live-Latenzmessung und Dual-Design-Engine (<i>Stark HUD</i> &amp; <i>Cupertino Glass</i>).</sub><br/>
-      <sub><code>Node.js</code> · <code>JavaScript</code> · <code>HTML5 / CSS3</code> · <code>REST API</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <img src="assets/logos/truenas-setup.png" width="54" height="54" align="left" alt="TrueNAS-Setup Logo" />
-      <b>TrueNAS-Setup &amp; Ansible Homelab</b><br/>
-      <img src="https://img.shields.io/badge/Private-Infrastructure_as_Code-6e7681?style=flat-square&logo=github" alt="Private" />
-      <br clear="left"/>
-      <sub><b>Deklarative Server- &amp; Storage-Infrastruktur:</b> Verwaltet 40+ Docker-Container, ZFS-Pools, einen föderierten Matrix-Homeserver (Synapse, MAS, LiveKit), Authentik-SSO und Reverse-Proxies (Caddy) per Ansible &amp; GitOps.</sub><br/>
-      <sub><code>Ansible</code> · <code>TrueNAS SCALE</code> · <code>ZFS</code> · <code>Docker</code> · <code>Caddy</code> · <code>Matrix</code></sub>
+      <sub><b>Smart-Home-Raumreinigungs-Automatisierung:</b> Home Assistant Custom Integration für etagenbasierte Raumerkennung, separate Saug-/Wisch-Intervalle, Anwesenheitsprüfung und interaktive Sprach-Rückfragen (TTS).</sub><br/>
+      <sub><code>Python</code> · <code>Home Assistant</code> · <code>HACS</code> · <code>AsyncIO</code> · <code>TTS</code></sub>
     </td>
   </tr>
 </table>
 
 <details>
-<summary><b>📂 Alle weiteren 13 Projekte &amp; Tools anzeigen (KI-Gateways, Smart Home, Workflow-Automation &amp; Hardware)</b></summary>
+<summary><b>📂 Weitere Open-Source-Tools &amp; Private Self-Hosted-Projekte anzeigen (15 Projekte)</b></summary>
 <br/>
 
 | Logo | Projekt | Status | Kurzbeschreibung & Tech-Stack |
 | :---: | :--- | :---: | :--- |
-| <img src="assets/logos/iris.png" width="38" height="38" alt="Iris" /> | **Iris** | `Private` | Plattformübergreifender Sync-Daemon (`launchd`/Linux) für KI-Skills zwischen Claude Code, Codex, T3 Code & Cursor (`Python`, `Shell`) |
+| <img src="assets/logos/iris.png" width="38" height="38" alt="Iris" /> | [**Iris**](https://github.com/n-bross/iris) | [`Open Source`](https://github.com/n-bross/iris) | Plattformübergreifendes Sync-CLI & Daemon (`launchd`/`systemd`) für KI-Agent-Skills zwischen Claude Code, Codex, Gemini & Antigravity (`Python`, `CLI`, `unittest`) |
+| <img src="assets/logos/adhd-task-orchestrator.png" width="38" height="38" alt="Haus-Aufgaben-Tracker" /> | [**Haus-Aufgaben-Tracker**](https://github.com/n-bross/Haus-Aufgaben-Tracker) | [`Open Source`](https://github.com/n-bross/Haus-Aufgaben-Tracker) | Aufgaben- und Haushalts-Tracker (`GitHub Repository`) |
 | <img src="assets/logos/token-maxing.png" width="38" height="38" alt="Token-Maxing" /> | **Token-Maxing** | `Private` | Multi-Account AI Gateway & Telemetrie-Plattform mit SSE-Streaming, Failover & Next.js-Dashboard (`TypeScript`, `Fastify`, `Next.js`, `SQLite`) |
 | <img src="assets/logos/cliproxyapi.png" width="38" height="38" alt="CLIProxyAPI" /> | **CLIProxyAPI** | `Private` | Unified AI-Proxy-Server in Go mit Management-Konsole für OpenAI-/Claude-/Gemini-kompatible REST-Endpunkte (`Go`, `REST API`, `OAuth`) |
 | <img src="assets/logos/odysseus.png" width="38" height="38" alt="Odysseus" /> | **Odysseus** | `Private` | Selbstgehosteter KI-Wissens- & Recherche-Stack mit Vektordatenbank, Metasuche & Push-Alerts (`Python`, `ChromaDB`, `SearXNG`, `ntfy`) |
-| <img src="assets/logos/argus.png" width="38" height="38" alt="Argus" /> | **Argus** | `Private` | Selbstgehosteter Observability- & Metrik-Stack über alle Hosts im Tailnet (`Prometheus`, `Grafana`, `VictoriaMetrics`, `Docker`) |
 | <img src="assets/logos/where2watch.png" width="38" height="38" alt="where2watch" /> | **where2watch** | `Private` | Werbefreie Cross-Platform-Streaming-Suchmaschine mit eigenem Python-TMDB-Adapter (`Flutter`, `Dart`, `Python`, `TMDB API`) |
-| <img src="assets/logos/go60-zmk.png" width="38" height="38" alt="Go60-ZMK" /> | **Go60-ZMK** | `Private` | Custom Split-Keyboard-Firmware, ergonomische Layer-Architektur & lokale Zephyr-Build-Pipeline für das MoErgo Go60 (`C`, `ZMK`, `Zephyr RTOS`) |
+| <img src="assets/logos/orbit.png" width="38" height="38" alt="Orbit" /> | **Orbit // Mission Control** | `Private` | Echtzeit-Service- & Telemetrie-Dashboard mit Live-Latenzmessung und Dual-Design-Engine (`Node.js`, `JavaScript`, `HTML5 / CSS3`) |
+| <img src="assets/logos/fleet.png" width="38" height="38" alt="Fleet" /> | **Fleet** | `Private` | Multi-Host-Orchestrierungs-CLI (`fleet doctor`, `fleet sync`) über Linux, TrueNAS & macOS inkl. 1Password-Injektion (`Python`, `Bash`, `systemd`) |
+| <img src="assets/logos/argus.png" width="38" height="38" alt="Argus" /> | **Argus** | `Private` | Selbstgehosteter Observability- & Metrik-Stack mit eigenem Python-Prozess-Exporter (`Python`, `Prometheus`, `Grafana`, `Docker`) |
+| <img src="assets/logos/truenas-setup.png" width="38" height="38" alt="TrueNAS-Setup" /> | **TrueNAS-Setup** | `Private` | Eigenes Python-Ansible-Modul (`truenas_app.py`) & Playbooks zur deklarativen Verwaltung von 40+ Diensten (`Python`, `Ansible`, `TrueNAS SCALE`) |
 | <img src="assets/logos/bewerbung-latex.png" width="38" height="38" alt="Bewerbungsstudio" /> | **Bewerbungsstudio** | `Private` | Datengetriebene LaTeX-Bewerbungsplattform (`moderncv`) mit Kanban-Web-UI und automatischer PDF-Kompilierung (`Python`, `LaTeX`, `Web UI`) |
 | <img src="assets/logos/arbeitsamt-pdf-creator.png" width="38" height="38" alt="Arbeitsamt-PDF-Creator" /> | **Arbeitsamt-PDF-Creator** | `Private` | Automatisierte Erstellung, Zusammenführung und Archivierung standardisierter PDF-Nachweise (`Python`, `PDF Automation`) |
-| <img src="assets/logos/adhd-task-orchestrator.png" width="38" height="38" alt="ADHD Task Orchestrator" /> | **ADHD Task Orchestrator** | `Private` | Fokus-Timer & Aufgaben-Orchestrierung mit Raycast-Integration und Smart-Home-Licht-/TTS-Feedback (`Python`, `Raycast`, `Home Assistant`) |
-| <img src="assets/logos/todo-kalender.png" width="38" height="38" alt="Todo-Kalender" /> | **Todo-Kalender** | `Private` | Bidirektionale CalDAV-/Radicale-Synchronisation zur automatischen Terminierung offener Aufgaben (`Python`, `CalDAV`, `Radicale`) |
+| <img src="assets/logos/go60-zmk.png" width="38" height="38" alt="Go60-ZMK" /> | **Go60-ZMK** | `Private` | Custom Split-Keyboard-Firmware, ergonomische Layer-Architektur & lokale Zephyr-Build-Pipeline für das MoErgo Go60 (`C`, `ZMK`, `Zephyr RTOS`) |
 | <img src="assets/logos/book-orbit.png" width="38" height="38" alt="Book Orbit" /> | **Book Orbit** | `Private` | Selbstgehosteter Hörbuch- & E-Book-Medienserver auf TrueNAS SCALE mit Fortschrittssynchronisation (`Docker`, `TrueNAS SCALE`) |
 | <img src="assets/logos/ai-note-dock.png" width="38" height="38" alt="Ai-Note-Dock" /> | **Ai-Note-Dock** | `Private` | Embedded Hardware-Konzept für einen Raspberry Pi Zero 2 W Bluetooth-Audiorekorder mit Smart-Dock-Upload (`Embedded Linux`, `BlueZ`, `PipeWire`) |
 
@@ -147,7 +149,7 @@ Ich entwickle Software und Infrastruktur, die reale Alltags- und Geschäftsprobl
 
 | Bereich | Technologien & Werkzeuge |
 | :--- | :--- |
-| **Sprachen** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) |
-| **Backend & Web** | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![tRPC](https://img.shields.io/badge/tRPC-2596BE?style=flat-square&logo=trpc&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
-| **Mobile, Audio & KI** | ![SwiftUI](https://img.shields.io/badge/SwiftUI-0051D5?style=flat-square&logo=swift&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Apple MLX](https://img.shields.io/badge/Apple_MLX_Whisper-000000?style=flat-square&logo=apple&logoColor=white) ![PyAnnote](https://img.shields.io/badge/PyAnnote_Diarization-FF6F00?style=flat-square) ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF4F00?style=flat-square) |
-| **DevOps, Infra & QA** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![TrueNAS SCALE](https://img.shields.io/badge/TrueNAS_SCALE_%2F_ZFS-0095D5?style=flat-square&logo=truenas&logoColor=white) ![Tailscale](https://img.shields.io/badge/Tailscale_Zero--Trust-242424?style=flat-square&logo=tailscale&logoColor=white) ![Caddy](https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white) ![Grafana](https://img.shields.io/badge/Prometheus_%26_Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins_CI%2FCD-D24939?style=flat-square&logo=jenkins&logoColor=white) |
+| **Sprachen** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell_7-5391FE?style=flat-square&logo=powershell&logoColor=white) |
+| **Backend, Web & APIs** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL_18-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
+| **Mobile, Audio & KI** | ![SwiftUI](https://img.shields.io/badge/SwiftUI-0051D5?style=flat-square&logo=swift&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Apple MLX](https://img.shields.io/badge/Apple_MLX_Whisper-000000?style=flat-square&logo=apple&logoColor=white) ![Faster-Whisper](https://img.shields.io/badge/Faster--Whisper-FF6F00?style=flat-square) ![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF4F00?style=flat-square) |
+| **Testing, CI/CD & Infra** | ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins_CI%2FCD-D24939?style=flat-square&logo=jenkins&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) |
