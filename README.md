@@ -69,8 +69,8 @@ Ich entwickle Software und Infrastruktur, die reale Alltags- und Geschäftsprobl
       <a href="https://github.com/n-bross/JUFO-Web"><b>JUFO-Web</b></a><br/>
       <a href="https://github.com/n-bross/JUFO-Web"><img src="https://img.shields.io/badge/Open_Source-Public_Repo-2ea043?style=flat-square&logo=github" alt="Open Source" /></a>
       <br clear="left"/>
-      <sub><b>Web-Plattform für das Jugendforum Grafing:</b> Full-Stack-Webanwendung mit durchgängiger End-to-End-Typsicherheit vom Datenbankschema bis zum Frontend im modernen T3-Stack.</sub><br/>
-      <sub><code>Next.js</code> · <code>TypeScript</code> · <code>tRPC</code> · <code>Prisma ORM</code> · <code>Tailwind CSS</code></sub>
+      <sub><b>Web-Plattform für das Jugendforum Grafing:</b> Full-Stack-Vereinsportal mit Online-Eventanmeldung, Bewerbungs- &amp; Kontakt-Workflows, Turnierplaner und Serverless-PostgreSQL-Backend.</sub><br/>
+      <sub><code>React 18</code> · <code>TypeScript</code> · <code>Vite</code> · <code>Tailwind CSS 4</code> · <code>PostgreSQL</code></sub>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/n-bross/PriceWatch"><img src="assets/logos/pricewatch.png" width="54" height="54" align="left" alt="PriceWatch Logo" /></a>
@@ -83,12 +83,12 @@ Ich entwickle Software und Infrastruktur, die reale Alltags- und Geschäftsprobl
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/n-bross/where2watch"><img src="assets/logos/where2watch.png" width="54" height="54" align="left" alt="where2watch Logo" /></a>
-      <a href="https://github.com/n-bross/where2watch"><b>where2watch</b></a><br/>
-      <a href="https://github.com/n-bross/where2watch"><img src="https://img.shields.io/badge/Open_Source-Public_Repo-2ea043?style=flat-square&logo=github" alt="Open Source" /></a>
+      <a href="https://github.com/n-bross/vacuum_room_scheduler"><img src="assets/logos/vacuum-room-scheduler.png" width="54" height="54" align="left" alt="Vacuum Room Scheduler Logo" /></a>
+      <a href="https://github.com/n-bross/vacuum_room_scheduler"><b>Vacuum Room Scheduler</b></a><br/>
+      <a href="https://github.com/n-bross/vacuum_room_scheduler"><img src="https://img.shields.io/badge/Open_Source-HACS_Integration-2ea043?style=flat-square&logo=github" alt="Open Source" /></a>
       <br clear="left"/>
-      <sub><b>Open-Source-Streaming-Suchmaschine:</b> Werbefreie Cross-Platform-Alternative zu JustWatch — zeigt sofort, wo Filme &amp; Serien im Abo, zur Leihe oder zum Kauf verfügbar sind, gestützt durch einen eigenen Python-TMDB-Adapter.</sub><br/>
-      <sub><code>Flutter</code> · <code>Dart</code> · <code>Python</code> · <code>TMDB API</code></sub>
+      <sub><b>Smart-Home-Raumreinigungs-Automatisierung:</b> Home Assistant Custom Integration für etagenbasierte Raumerkennung, separate Saug-/Wisch-Intervalle, Anwesenheitsprüfung und interaktive Sprach-Rückfragen (TTS).</sub><br/>
+      <sub><code>Python</code> · <code>Home Assistant</code> · <code>HACS</code> · <code>AsyncIO</code> · <code>TTS</code></sub>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/n-bross/ha-hermes-conversation"><img src="assets/logos/ha-hermes-conversation.png" width="54" height="54" align="left" alt="Hermes HA Logo" /></a>
@@ -130,8 +130,8 @@ Ich entwickle Software und Infrastruktur, die reale Alltags- und Geschäftsprobl
 | <img src="assets/logos/cliproxyapi.png" width="38" height="38" alt="CLIProxyAPI" /> | **CLIProxyAPI** | `Private` | Unified AI-Proxy-Server in Go mit Management-Konsole für OpenAI-/Claude-/Gemini-kompatible REST-Endpunkte (`Go`, `REST API`, `OAuth`) |
 | <img src="assets/logos/odysseus.png" width="38" height="38" alt="Odysseus" /> | **Odysseus** | `Private` | Selbstgehosteter KI-Wissens- & Recherche-Stack mit Vektordatenbank, Metasuche & Push-Alerts (`Python`, `ChromaDB`, `SearXNG`, `ntfy`) |
 | <img src="assets/logos/argus.png" width="38" height="38" alt="Argus" /> | **Argus** | `Private` | Selbstgehosteter Observability- & Metrik-Stack über alle Hosts im Tailnet (`Prometheus`, `Grafana`, `VictoriaMetrics`, `Docker`) |
-| <img src="assets/logos/vacuum-room-scheduler.png" width="38" height="38" alt="Vacuum Room Scheduler" /> | [**Vacuum Room Scheduler**](https://github.com/n-bross/vacuum_room_scheduler) | [**`Open Source`**](https://github.com/n-bross/vacuum_room_scheduler) | Home Assistant Custom Integration für raumbasierte Saugroboter-Zeitpläne, Anwesenheitslogik & TTS-Feedback (`Python`, `Home Assistant`) |
-| <img src="assets/logos/go60-zmk.png" width="38" height="38" alt="Go60-ZMK" /> | [**Go60-ZMK**](https://github.com/n-bross/Go60-ZMK) | [**`Open Source`**](https://github.com/n-bross/Go60-ZMK) | Custom Split-Keyboard-Firmware, ergonomische Layer-Architektur & lokale Zephyr-Build-Pipeline für das MoErgo Go60 (`C`, `ZMK`, `Zephyr RTOS`) |
+| <img src="assets/logos/where2watch.png" width="38" height="38" alt="where2watch" /> | **where2watch** | `Private` | Werbefreie Cross-Platform-Streaming-Suchmaschine mit eigenem Python-TMDB-Adapter (`Flutter`, `Dart`, `Python`, `TMDB API`) |
+| <img src="assets/logos/go60-zmk.png" width="38" height="38" alt="Go60-ZMK" /> | **Go60-ZMK** | `Private` | Custom Split-Keyboard-Firmware, ergonomische Layer-Architektur & lokale Zephyr-Build-Pipeline für das MoErgo Go60 (`C`, `ZMK`, `Zephyr RTOS`) |
 | <img src="assets/logos/bewerbung-latex.png" width="38" height="38" alt="Bewerbungsstudio" /> | **Bewerbungsstudio** | `Private` | Datengetriebene LaTeX-Bewerbungsplattform (`moderncv`) mit Kanban-Web-UI und automatischer PDF-Kompilierung (`Python`, `LaTeX`, `Web UI`) |
 | <img src="assets/logos/arbeitsamt-pdf-creator.png" width="38" height="38" alt="Arbeitsamt-PDF-Creator" /> | **Arbeitsamt-PDF-Creator** | `Private` | Automatisierte Erstellung, Zusammenführung und Archivierung standardisierter PDF-Nachweise (`Python`, `PDF Automation`) |
 | <img src="assets/logos/adhd-task-orchestrator.png" width="38" height="38" alt="ADHD Task Orchestrator" /> | **ADHD Task Orchestrator** | `Private` | Fokus-Timer & Aufgaben-Orchestrierung mit Raycast-Integration und Smart-Home-Licht-/TTS-Feedback (`Python`, `Raycast`, `Home Assistant`) |
