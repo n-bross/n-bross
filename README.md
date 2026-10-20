@@ -1,8 +1,6 @@
 <div align="center">
 
-<img src="assets/logos/fleet.png" width="82" height="82" alt="Nico Broß — Portfolio Logo" />
-
-# Hi, ich bin Nico 👋
+# Hi, ich bin Nico
 
 **Fachinformatiker für Anwendungsentwicklung · Full-Stack, Backend-APIs, KI-/Audio-Pipelines & Automatisierung**
 
